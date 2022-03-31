@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url('/images/skyscrapers-3184798_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    border:3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    display: flex;
+    width: 50%;
+    /* background-color: black; */
+    align-items: center;
+    
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:gray;
+
+}
+
+.rightNav{
+    text-align: right;
+    width: 50%;
+    padding: 0 23px;
+}
+#search{
+    padding: 2px;
+    font-size: 17px;
+    border: 10px solid gray;
+    border-radius: 9px;
+    color: black;
+}
+/* .background{
+    background: rgba(0, 0, 0, 0.7) url(/images/skyscrapers-3184798_960_720.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstSection{
+    height: 100vhS;
+}
+.firstSection{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img{
+    width: 70%;
+    border: 40px solid white;
+    border-radius: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 41px;
+}
+.text-small{
+    font-size: 18px;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
